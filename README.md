@@ -2,6 +2,15 @@
 
 ## Setting up the project
 
+### Database
+
+1. Install PostgreSQL
+2. Import the database from 'db.sql' file with the following command:
+
+```bash
+psql -U <DB_USER> -d <DB_NAME> -a -f db.sql
+```
+
 ### Frontend
 
 1. Install dependencies
@@ -43,15 +52,6 @@ JWT_SECRET=
 
 ```bash
 npm run start
-```
-
-### Database
-
-1. Install PostgreSQL
-2. Import the database from 'db.sql' file with the following command:
-
-```bash
-psql -U <DB_USER> -d <DB_NAME> -a -f db.sql
 ```
 
 ## Demo Video
