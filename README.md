@@ -59,6 +59,7 @@ psql -U <DB_USER> -d <DB_NAME> -a -f db.sql
 [![Demo Video](https://drive.google.com/file/d/1wBW2DBjqYDmdYK1Yc1EMXpJBisNKoTlN/view?usp=sharing)](https://drive.google.com/file/d/1wBW2DBjqYDmdYK1Yc1EMXpJBisNKoTlN/view?usp=sharing)
 
 
-My expected salary per month is 2500~3500 USD
+My expected salary per month is 2500~3500 USD  
+
 Thank you for your time!
 
