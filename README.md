@@ -59,7 +59,7 @@ npm run start
 [![Demo Video](https://drive.google.com/file/d/1wBW2DBjqYDmdYK1Yc1EMXpJBisNKoTlN/view?usp=sharing)](https://drive.google.com/file/d/1wBW2DBjqYDmdYK1Yc1EMXpJBisNKoTlN/view?usp=sharing)
 
 
-My expected salary per month is 2500~3500 USD  
+My expected salary is $20 per hour or $1600 per month.
 
 Thank you for your time!
 
