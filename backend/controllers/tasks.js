@@ -28,8 +28,8 @@ export default {
     },
     createTask: (req, res) => {
         try {
-            const { title, description, isComplete, userid } = req.body
-            pool.query('INSERT INTO tasks (title, description, isComplete, userid) VALUES ($1, $2, $3, $4)', [title, description, isComplete, userid], (error, results) => {
+            const { title, description, iscomplete, userid } = req.body
+            pool.query('INSERT INTO tasks (title, description, iscomplete, userid) VALUES ($1, $2, $3, $4)', [title, description, iscomplete, userid], (error, results) => {
                 if (error) {
                     throw error
                 }
@@ -44,8 +44,8 @@ export default {
     modifyTask: (req, res) => {
         try {
             const id = parseInt(req.params.id)
-            const { title, description, isComplete, userid } = req.body
-            pool.query('UPDATE tasks SET title = $1, description = $2, isComplete = $3, userid = $4 WHERE id = $5', [title, description, isComplete, userid, id], (error, results) => {
+            const { title, description, iscomplete, userid } = req.body
+            pool.query('UPDATE tasks SET title = $1, description = $2, iscomplete = $3, userid = $4 WHERE id = $5', [title, description, iscomplete, userid, id], (error, results) => {
                 if (error) {
                     throw error
                 }

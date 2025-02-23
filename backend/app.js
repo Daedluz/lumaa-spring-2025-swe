@@ -1,5 +1,6 @@
 import express from 'express'
 import dotenv from 'dotenv'
+import cors from 'cors'
 
 import userRouter from './routes/users.js'
 import taskRouter from './routes/tasks.js'
@@ -11,6 +12,7 @@ dotenv.config()
 const app = express()
 const port = process.env.APP_PORT | 8080
 
+app.use(cors())
 app.use(express.json());
 
 app.use('/auth', userRouter)
